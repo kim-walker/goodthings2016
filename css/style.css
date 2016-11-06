@@ -1,0 +1,315 @@
+
+
+section {
+  width: 100%;
+  padding: 0!important;
+  display: block;
+  margin: 0!important;
+  max-width: none;
+
+background: #ffb347; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ffb347 , #ffcc33); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ffb347 , #ffcc33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+  height: 100vh;
+  z-index: 10000000;
+  position: relative;
+  text-align: center!important;
+
+}
+
+
+.section{margin-bottom: 60px; margin-left: 10px; margin-right:4px;}
+
+    .month {display:none;}
+
+.stretch {
+
+  font-size: 15em;
+  margin-top: -60px;
+}
+
+
+.top { margin-top: 0px!important; left:0;text-align: left;background-size: cover; width: 100%;color:#;  -webkit-text-stroke-width: 0px;
+   -webkit-text-stroke-color: black; }
+
+nav.page-navigation .current a {
+    background-color: #fff;
+    color: #fdbe3d;
+    text-decoration: none;
+}
+
+nav.page-navigation {
+    width: 140px;
+    background-color: #fff;
+    position: fixed;
+    left:0;
+    text-decoration: none;
+}
+nav.page-navigation li {
+    width: 100%;
+    text-decoration: none;
+    
+    margin: 0;
+}
+nav.page-navigation a {
+   
+    width: 80%;
+    text-decoration: none;
+    
+}
+
+li {line-height: 220%; margin: 0;}
+
+.button {
+    border-radius:2px;
+    border:1px solid black;
+    padding:6px 10px 6px 10px!important;
+    white-space:nowrap;
+    cursor:pointer;
+    vertical-align:middle;
+    display:inline;
+    display:inline-block;
+    text-transform:none;
+    color:black;
+text-decoration: none;
+    background-color: #fff;
+    margin-top: 0px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.button:hover {
+    border-radius:2px;
+    border:1px solid #fdbe3d;
+   padding:6px 10px 6px 10px!important;
+    white-space:nowrap;
+    cursor:pointer;
+    vertical-align:middle;
+    display:inline;
+    display:inline-block;
+    text-transform:none;
+    color:black;
+text-decoration: none;
+    background-color: #fdbe3d;
+    margin-top: 0px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+#left {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    background: white;
+    text-align:center;
+    text-align: left;
+    margin-top: 50px;
+ 
+
+}
+#right {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    background: white;
+    padding-right: 30px!important;
+    margin-left: 30px;
+
+}
+
+
+.quote {margin-top:50px; margin-bottom:30px; width:100%; float:left; line-height: 130%;}
+
+.italic {font-style: italic;}
+
+
+.smile { 
+background: #FFB75E; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #FFB75E , #ED8F03); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #FFB75E , #ED8F03); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+  }
+
+
+  .smiley { 
+height:27px;
+    -webkit-animation: rotation 4s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+
+
+
+::selection {
+  background: #fdbe3d; /* WebKit/Blink Browsers */
+  color: black;
+}
+
+  
+
+ 
+h1 {
+  font-size: 1.5em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  margin: 0;
+}
+h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  margin: 0;
+  
+
+
+}
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+
+}
+
+body {margin: 0px; margin-top: 0px;}
+
+
+.times {font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; font-weight: 300; letter-spacing: 0em;
+ }
+
+
+ /* unvisited link */
+a:link {
+    color: black;
+      -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+      -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+/* mouse over link */
+a:hover {
+    
+
+
+color: #fdbe3d; /* fallback for old browsers */
+color: -webkit-linear-gradient(to left, #FFB75E , #ED8F03); /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to left, #FFB75E , #ED8F03); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+
+        
+          -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+
+}
+
+/* selected link */
+a:active {
+    color: black;
+
+}
+
+.month-mid {display: none;}
+
+
+@media only screen and (min-width: 500px) and (max-width: 960px) {
+    .month-mid {display: inline;}
+    .quote {margin-top:50px; margin-bottom:30px; width:50%; float:right; line-height: 130%;}
+   }
+
+
+
+
+@media (min-width: 960px){
+
+  .section{margin-bottom: 60px; margin-left: 10px; margin-right:15px;}
+
+  .hide-on-desktop {display: none;}
+
+  .quote {margin-top:50px; margin-bottom:30px; width:50%; float:right; line-height: 130%;}
+
+.month-mid {display: none;}
+
+  #left {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background: white;
+    text-align:center;
+    text-align: left;
+  
+}
+#right {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    background: white;
+    padding-right: 30px!important;
+    margin-left: 30px;
+}
+
+
+
+  .month {display:inline;}
+
+
+  .smiley { 
+height:40px;
+  
+
+  }
+
+
+  body {margin: 0px; padding: 0}
+
+  h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 4.4em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  text-indent: 1.4em;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+
+
+
+
+}
