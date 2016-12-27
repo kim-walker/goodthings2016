@@ -1,3 +1,10 @@
+a.highlight:hover {color:black;}
+
+a.highlight {border:2px solid black; text-decoration: none;padding: 5px; border-radius: 3px;}
+
+
+
+
 .fade-in.one {
   -webkit-animation-delay: 0.3s;
   -moz-animation-delay: 0.4s;
@@ -53,13 +60,14 @@
 }
 
 
-.initial {color:#fdbe3d; font-size:4em!important; text-indent:0px!important;
+.initial {
 
+ 
+ 
+ color: black;
+ font-family: times;
 
-
-  background: -webkit-linear-gradient(#ffb347, #ffcc33);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+ text-decoration: none;padding: 10px; border-radius: 3px;
 
 }
 
@@ -166,7 +174,7 @@ background: linear-gradient(to left, #ffb347 , #ffcc33); /* W3C, IE 10+/ Edge, F
 
 
 .top { margin-top: 0px!important; left:0;text-align: left;background-size: cover; width: 100%;color:#;  -webkit-text-stroke-width: 0px;
-   -webkit-text-stroke-color: black; }
+   -webkit-text-stroke-color: black; -webkit-transform: rotate(-4deg);}
 
 nav.page-navigation .current a {
     background-color: #fff;
@@ -361,16 +369,17 @@ height:27px;
 
  
 h1 {
-  font-size: 1.5em;
-  font-family: "Space Mono", "Helvetica Neue", Helvetica, Arial, sans-serif; "Space Mono"
+  font-size: 1.3em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; "Space Mono"
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
   margin: 0;
   color: #fdbe3d;
+  line-height: 2.2em;
 }
 h3 {
-  font-family: "Space Mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   font-style: normal;
   font-variant: normal;
@@ -381,7 +390,7 @@ h3 {
 
 }
 p {
-  font-family: "Space Mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -390,7 +399,7 @@ p {
 
 }
 
-body {margin: 0px; margin-top: 0px;}
+body {margin: 0px; margin-top: 0px; }
 
 
 .times {font-family: "Space Mono", TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; font-weight: 300; letter-spacing: 0em;
@@ -609,18 +618,21 @@ height:40px;
 
   body {margin: 0px; padding: 0}
 
+  a.highlight {padding: 10px;}
+
   h1 {
-  font-family: "Space Mono",  "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2.4em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3.5em;
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
-    color: #fdbe3d;
+    color: #ffb347;
   margin: 0;
+  line-height: 1.8em;
 }
 
 h3 {
-  font-family: "Space Mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   font-style: normal;
   font-variant: normal;
