@@ -21,35 +21,32 @@
 
        });
     </script>
-    <script type="text/javascript">
+    <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
-      var canvas = document.getElementById('c');
-     //set the canvas width and height
-     var pageWidth = window.innerWidth;
-     var pageHeight = window.innerHeight;
-     canvas.width=pageWidth;
-     canvas.height=pageHeight;
-     var ctx = canvas.getContext("2d");
-     var mouseX, mouseY, mousePX, mousePY;
-     
-     // get mouse co-ords
-    $(window).mousemove(function(event){
-       mouseX = event.pageX;
-       mouseY = event.pageY;
-    });
-     draw();
-     function draw() {
-       ctx.beginPath();
-       ctx.moveTo(mousePX, mousePY);
-       ctx.lineTo(mouseX,mouseY);
-       ctx.strokeColor = '#f06d06';
-       ctx.stroke();
-       //console.log(mouseX + mouseY + mousePX+ mousePY);
-       mousePX = mouseX;
-       mousePY = mouseY;
-       requestAnimationFrame(draw);
-     }
-    </script>
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 </head>
 <body class="custom">
     <div style="position:fixed; height: 10px; background-color:red; z-index:100000000000; top:0;"></div>
@@ -112,10 +109,11 @@
                 <h3 class="intro fade-in one" style="text-align:; text-indent:0;">a big list of good news from 2016</h3>
             </div>
         </div>
+        <div style=" position: relative; top: 90%; transform: translateY(-50%);"><h3 class="fade-in"><a href="#section-jan"><i class="material-icons">&#xE5DB;</i></a></h3></div>
     </section>
     <div id="right">
         <div style="border-bottom:0px solid black; width:40%; margin-bottom:50px;"></div>
-        <div class="section" id="section-jan">
+        <div class="section" id="section-jan" style="padding-top:70px;">
             <h1><a class="highlight" href="http://www.voanews.com/a/zimbabwe-constitutional-court-oulaws-child-marriages/3154549.html" target="blank">Zimbabwe's Constitutional Court Outlaws Child Marriages</a> <a class="highlight" href="http://www.theverge.com/2016/1/25/10825702/bill-gates-george-osborne-malaria-fund?platform=hootsuite" target="blank">Bill Gates and UK government pledge $4 billion to combat malaria</a> <a class="highlight" href="http://www.who.int/neglected_diseases/news/historic_low_number_GW_cases_reported/en/" target="blank">Historic low number of guinea worm cases reported</a>
 
                 <a class="highlight" href="http://polioeradication.org/news-post/syria-achieves-polio-milestone/" target="blank">Syria achieves polio milestone</a>
