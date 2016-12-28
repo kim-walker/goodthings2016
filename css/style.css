@@ -1,3 +1,11 @@
+.bump {line-height: 2.6em;}
+
+
+.custom {
+   cursor: url('../smile-cursor.png'), auto;
+}
+
+
 a.highlight:hover {color:black;}
 
 a.highlight {border:2px solid black; text-decoration: none;padding: 5px; border-radius: 3px;}
@@ -173,8 +181,7 @@ background: linear-gradient(to left, #ffb347 , #ffcc33); /* W3C, IE 10+/ Edge, F
 }
 
 
-.top { margin-top: 0px!important; left:0;text-align: left;background-size: cover; width: 100%;color:#;  -webkit-text-stroke-width: 0px;
-   -webkit-text-stroke-color: black; -webkit-transform: rotate(-4deg);}
+
 
 nav.page-navigation .current a {
     background-color: #fff;
@@ -220,7 +227,7 @@ li {line-height: 220%; margin: 0;}
 
 .button {
     border-radius:2px;
-    border:1px solid #fdbe3d;
+    border:2px solid black;
     padding:20px 0px 20px 0px!important;
     white-space:nowrap;
     cursor:pointer;
@@ -241,7 +248,7 @@ text-decoration: none;
 
 .button:hover {
     border-radius:2px;
-    border:1px solid #fdbe3d;
+    border:2px solid black;
    padding:20px 0px 20px 0px!important;
     white-space:nowrap;
     cursor:pointer;
@@ -257,7 +264,7 @@ text-decoration: none;
     margin-top: 20px;
     width: 100%;
     text-indent: 0;
-    box-shadow:  10px 10px 20px #ed8f03;
+    
 
 }
 
@@ -402,7 +409,7 @@ p {
 body {margin: 0px; margin-top: 0px; }
 
 
-.times {font-family: "Space Mono", TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; font-weight: 300; letter-spacing: 0em;
+.times {font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; font-weight: 300; letter-spacing: 0em;
  }
 
 
@@ -474,7 +481,7 @@ a:active {
 
   .button {
     border-radius:2px;
-    border:1px solid #fdbe3d;
+    border:2px solid black;
     padding:40px 0px 40px 0px!important;
     white-space:nowrap;
     cursor:pointer;
@@ -495,7 +502,7 @@ text-decoration: none;
 
 .button:hover {
     border-radius:2px;
-    border:1px solid #fdbe3d;
+    border:2px solid black;
    padding:40px 0px 40px 0px!important;
     white-space:nowrap;
     cursor:pointer;
